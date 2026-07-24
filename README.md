@@ -1,11 +1,7 @@
 <img width="2154" height="1347" alt="image" src="https://github.com/user-attachments/assets/b84495f4-2776-4735-aec3-f206e886dfd9" />
 
-# 核心功能
-系统提示词 - 内置软件测试领域专家角色，涵盖测试方法论、自动化框架、性能测试、安全测试、测试管理等专业知识
-文档支持 - 支持 PDF、Word、Markdown、TXT、CSV 格式文档上传和索引
-RAG引擎 - 基于LangChain文档切分 + ChromaDB向量存储 + 通义千问Embedding/LLM
-Web界面 - 左侧知识库管理 + 右侧对话式问答，支持流式输出和来源引用
 # 项目结构
+```plaintext
 ├── app/
 │   ├── __init__.py
 │   ├── config.py            # 配置管理（API Key、模型参数）
@@ -22,3 +18,10 @@ Web界面 - 左侧知识库管理 + 右侧对话式问答，支持流式输出�
 ├── .env                     # 环境变量配置
 ├── requirements.txt
 └── run.py                   # 启动脚本
+```
+
+# 核心功能
+1. 系统提示词 - 内置软件测试领域专家角色，涵盖测试方法论、自动化框架、性能测试、安全测试、测试管理等专业知识
+2. 文档支持 - 支持 PDF、Word、Markdown、TXT、CSV 格式文档上传和索引
+3. RAG引擎 - 基于LangChain文档切分 + ChromaDB向量存储 + 通义千问Embedding/LLM
+4. Web界面 - 左侧知识库管理 + 右侧对话式问答，支持流式输出和来源引用
